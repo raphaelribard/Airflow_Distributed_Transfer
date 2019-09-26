@@ -14,4 +14,6 @@ There are 2 DAGs (Directed Acyclic Graph):
     * Task 1 : Create empty output file where all the workers will be writing to simulataneously
     * Parallel Tasks 2 : Parallel tasks are dynamically created using the Airflow variable "number_of_chunks" : each of these parallel tasks is in charge of copying a specific chunk of the file in the associated location of the output file.
     * Task 3:  Clean the source folder
+    
+    
         
