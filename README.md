@@ -15,5 +15,5 @@ There are 2 DAGs (Directed Acyclic Graph):
     * Parallel Tasks 2 : Parallel tasks are dynamically created using the Airflow variable "number_of_chunks" : each of these parallel tasks is in charge of copying a specific chunk of the file in the associated location of the output file.
     * Task 3:  Clean the source folder
     
-![Image of Apache Airflow Variables] https://github.com/raphaelribard/Airflow_Distributed_Transfer/blob/master/images/Variables.png    
+![Image of Apache Airflow Variables] (https://github.com/raphaelribard/Airflow_Distributed_Transfer/blob/master/images/Variables.png)    
 
